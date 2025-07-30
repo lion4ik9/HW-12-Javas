@@ -39,5 +39,5 @@
 
   new CountdownTimer({
     selector: '#timer-1',
-    targetDate: new Date('Jul 29, 2025'),
+    targetDate: new Date('Aug 31, 2025'),
   });

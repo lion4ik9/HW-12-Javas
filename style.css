@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Thin';
+    font-weight: 700;
+    src: url('Thin\ Letters.otf');
+  }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url('./dark-forest.jpg');
+    overflow: hidden;
+    
+}
+
+.timer {
+    position: relative;
+    width: 350px;
+    font-family: 'Thin';
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    animation: fade-in 700ms ease-out;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+        margin-bottom: 0;
+    }
+
+    100%{
+        opacity: 1;
+        margin-bottom: 100px;
+    }
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+.value {
+    font-size: 100px;
+}
+
+.label {
+    font-size: 32px;
+}
